@@ -12,7 +12,7 @@ Made by Cindy Ngo :)
 
 2. **Add the config-test.js**
 
-   Move your `config-test.js` file over into the GWC-Discord-Moderator-Extension folder containing all extension files
+   Move your `config-test.js` file over into the TESTING-GWC-Discord-Moderator-Extension folder containing all extension files
 
 3. **Choose your Manifest**
 
@@ -27,13 +27,13 @@ Made by Cindy Ngo :)
    - Chrome
      - Open Chrome and go to: `chrome://extensions/`
      - Enable **Developer Mode** (toggle switch in the top right)
-     - Click **Load unpacked** and select the `gwc-template-extension` folder from your unzipped files
+     - Click **Load unpacked** and select the `TESTING-gwc-template-extension` folder from your unzipped files
    - Firefox (WORK IN PROGRESS)
 
 5. **Pin the Extension**
 
    - Click the puzzle icon in the Chrome toolbar
-   - Find the GWC Template Extension and click the pin icon to keep it visible
+   - Find the TESTING GWC Template Extension and click the pin icon to keep it visible
 
 ---
 
