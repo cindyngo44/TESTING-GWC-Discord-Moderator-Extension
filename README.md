@@ -1,1 +1,50 @@
-# TESTING-GWC-Discord-Moderator-Extension
+# TESTING GWC Template Extension — Installation Guide
+
+Made by Cindy Ngo :)
+
+---
+
+## Installation Steps
+
+1. **Download & Unzip**
+
+   Download the extension ZIP file and unzip it.
+
+2. **Add the config-test.js**
+
+   Move your `config-test.js` file over into the GWC-Discord-Moderator-Extension folder containing all extension files
+
+3. **Choose your Manifest**
+
+   Inside the unzipped folder, you'll see:
+   - manifest.chrome.json
+   - manifest.firefox.json
+
+   Before loading the extension, **rename** the manifest file that matches your browser to `manifest.json`:
+
+4. **Load Extension in Browser**
+
+   - Chrome
+     - Open Chrome and go to: `chrome://extensions/`
+     - Enable **Developer Mode** (toggle switch in the top right)
+     - Click **Load unpacked** and select the `gwc-template-extension` folder from your unzipped files
+   - Firefox (WORK IN PROGRESS)
+
+5. **Pin the Extension**
+
+   - Click the puzzle icon in the Chrome toolbar
+   - Find the GWC Template Extension and click the pin icon to keep it visible
+
+---
+
+## Troubleshooting
+
+If Chrome doesn't allow you to install the extension or you encounter issues, try this:
+
+1. Go to `chrome://flags/`
+2. Search for **Allow legacy extension manifest versions**
+3. Set it to **Enabled**
+4. Restart Chrome (optional)
+5. Try reinstalling the extension again!
+
+---

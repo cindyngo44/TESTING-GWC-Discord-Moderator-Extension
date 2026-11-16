@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TESTING GWC Template Copier</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+  <div class="header-row">
+    <h3>GWC Template Copier</h3>
+
+    <button id="themeToggle" class="theme-toggle" title="Toggle dark mode">
+      <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+      <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="white" style="display:none;">
+        <circle cx="12" cy="12" r="4"/>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+              stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- TABS 
+  <!-- ========================= -->
+
+  <div class="tabs" id="tabs-container">
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- STUDENT NAME + EMAIL -->
+  <!-- ========================= -->
+
+  <div class="section">
+
+    <div class="field-row">
+
+      <div class="field">
+        <label for="studentName">
+          Student Name:
+        </label>
+        <input
+          type="text"
+          id="studentName"
+          placeholder="Autodetecting..."
+        />
+      </div>
+
+      <div class="field">
+        <label for="modEmail">
+          Your Email:
+        </label>
+        <input
+          type="email"
+          id="modEmail"
+          placeholder="you@example.com"
+        />
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- TAB CONTENT
+  <!-- ========================= -->
+
+  <div id="tab-content-container">
+    <p>Loading templates...</p>
+  </div>
+
+
+  <!-- ========================= -->
+  <!-- TOAST -->
+  <!-- ========================= -->
+
+  <div id="toast">
+    Copied!
+  </div>
+
+  <!-- popup.html -->
+  <script type="module" src="popup.js"></script>
+
+</body>
+
+</html>
